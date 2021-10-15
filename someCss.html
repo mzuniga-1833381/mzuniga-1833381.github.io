@@ -2,12 +2,30 @@
 <html>
     <head>
         <title>Some CSS Practice</title>
+        <style>
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
     </head>
     <body>
         <p style="font-family: Arial;">Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.</p>
         <p style="font-family: Georgia; opacity: 0.5;">According to all known laws of aviation,there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little.</p>
         <img src="https://i.ytimg.com/vi/5mGuCdlCcNM/maxresdefault.jpg" title="DVD Video" style="width:50px;height:50px;margin:5px"> 
         <img src="https://techcrunch.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-21-at-8.34.44-AM.png" title="A scary sound" style="width:50px;height:50px;margin:5px">
-        <div style="width:200px; height:200px; background-image: url(https://www.wallpaperbetter.com/wallpaper/124/0/16/fall-park-leaves-nature-path-trees-landscape--wallpaper-middle-size.jpg);">~discombobulated~</div>
+        <div class="container">
+            <img src="https://www.wallpaperbetter.com/wallpaper/124/0/16/fall-park-leaves-nature-path-trees-landscape--wallpaper-middle-size.jpg" style="width:100%;">
+            <div class="centered">~discombobulated~</div>
+        </div>
+
+        <img src="https://static.parade.com/wp-content/uploads/2020/03/avengers-marvel.jpg">
     </body>
 </html>
