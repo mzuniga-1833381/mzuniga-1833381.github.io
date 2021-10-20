@@ -1,7 +1,7 @@
-.external {
+#external {
     color: lavender;
 }
-.float {
+#float {
     float: right;
     border-radius: 25px;
 }
