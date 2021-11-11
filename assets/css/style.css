@@ -577,15 +577,15 @@ textarea::-ms-input-placeholder
 }
 .contact-details .contact-category h4{
 	font-size:25px;
-	font-family:'nexa_boldregular';
+	font-family:'Lucida Console';
 }
 .contact-details .contact-category .mail h2{
 	font-size:50px;
-	font-family:'nexa_lightregular';
+	font-family:'Lucida Console';
 }
 .contact-details .contact-category .phone h5{
 	font-size:40px;
-	font-family:'nexa_lightregular';
+	font-family:'Lucida Console';
 }
 .contact-details .contact-category .social a {
     font-size: 26px;
