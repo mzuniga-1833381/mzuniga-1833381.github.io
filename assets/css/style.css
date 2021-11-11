@@ -517,11 +517,11 @@ textarea::-ms-input-placeholder
 
 .home-details .home-title h1{
 	font-size:60px;
-	font-family: 'nexa_lightregular';
+	font-family:'Lucida Console';
 	letter-spacing:1px;
 }
 .home-details .home-title h1 span{
-	font-family: 'nexa_boldregular';
+	font-family:'Lucida Console';
 	color:#f1f1f1;
 }
 
@@ -620,7 +620,3 @@ textarea::-ms-input-placeholder
 	text-transform:uppercase;
 	font-family:'nexa_lightregular';
 }
-
-
-
-
