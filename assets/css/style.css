@@ -443,7 +443,8 @@ textarea::-ms-input-placeholder
 .heading h3{
     font-size:45px;
 	text-transform:uppercase;
-	letter-spacing:2px;
+    letter-spacing:2px;
+    font-family:'Lucida Console';
 }
 .heading p{
     line-height:40px;
