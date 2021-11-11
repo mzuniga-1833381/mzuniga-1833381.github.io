@@ -462,7 +462,7 @@ textarea::-ms-input-placeholder
 	padding-top:45px;
 	padding-bottom:45px;
 	font-size:20px;
-	font-family:'nexa_lightregular';
+	font-family:'Lucida Console';
 	letter-spacing:2px;
 	line-height:0;
 }
