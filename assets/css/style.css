@@ -123,7 +123,7 @@ input[type="color"],
     height: 45px;
 }
 .form-control:focus {
-    border-color: #f56363;
+    border-color: #E97451;
 }
 
 h1,
@@ -189,13 +189,13 @@ p:last-child {
     color: #333333;
 }
 .colorstext {
-    color: #f56363;
+    color: #E97451;
 }
 .coloricon i {
-    color: #f56363;
+    color: #E97451;
 }
 .colorsbg {
-    background: #f56363;
+    background: #E97451;
     color: #ffffff;
 }
 
@@ -278,7 +278,7 @@ Separator
     height: 1px;
     width: 150px;
     margin: auto;
-    background: #f56363;
+    background: #E97451;
 }
 
 /*
@@ -298,8 +298,8 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #f56363;
-    border-color: #f56363;
+    background-color: #E97451;
+    border-color: #E97451;
 }
 
 /*.btn-default:active, .btn-default:hover  {
@@ -373,7 +373,7 @@ Extra height css
     padding: 40px 0;
 }
 h1 span {
-    color: #f56363;
+    color: #E97451;
     font-weight: 400;
 }
 
@@ -434,7 +434,7 @@ textarea::-ms-input-placeholder
 	-moz-transition:.3s ease-in-out;
 }
 .scroll-down a:hover{
-	color:red;
+	color:#E97451;
 }
 
 .heading {
@@ -472,11 +472,11 @@ textarea::-ms-input-placeholder
     background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: red;
+    color: #E97451;
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: red;
+    color: #E97451;
     background-color: transparent;
 }
   .navbar-nav {
@@ -605,7 +605,7 @@ textarea::-ms-input-placeholder
 	-moz-transition:.3s ease-in-out;
 }
 .contact-details .contact-category .social a :hover{
-    color:red;
+    color:#E97451;
 }
 
 /* For Footer Section */
@@ -620,3 +620,7 @@ textarea::-ms-input-placeholder
 	text-transform:uppercase;
 	font-family:'nexa_lightregular';
 }
+
+
+
+
