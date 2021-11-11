@@ -545,7 +545,8 @@ textarea::-ms-input-placeholder
 	overflow: hidden;
 }
 .portfolio .title h3{
-	color:#f1f1f1;
+    color:#f1f1f1;
+    font-family:'Lucida Console';
 }
 .portfolio-wrapper{
 	width:100%;
