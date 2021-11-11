@@ -9,7 +9,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
    ========================================================================== */
 html,
 body {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     font-size: 20px;
     color: #202020;
     width: 100%;
@@ -123,7 +123,7 @@ input[type="color"],
     height: 45px;
 }
 .form-control:focus {
-    border-color: #f56363;
+    border-color: #E97451;
 }
 
 h1,
@@ -189,13 +189,13 @@ p:last-child {
     color: #333333;
 }
 .colorstext {
-    color: #f56363;
+    color: #E97451;
 }
 .coloricon i {
-    color: #f56363;
+    color: #E97451;
 }
 .colorsbg {
-    background: #f56363;
+    background: #E97451;
     color: #ffffff;
 }
 
@@ -278,7 +278,7 @@ Separator
     height: 1px;
     width: 150px;
     margin: auto;
-    background: #f56363;
+    background: #E97451;
 }
 
 /*
@@ -298,8 +298,8 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #f56363;
-    border-color: #f56363;
+    background-color: #E97451;
+    border-color: #E97451;
 }
 
 /*.btn-default:active, .btn-default:hover  {
@@ -373,7 +373,7 @@ Extra height css
     padding: 40px 0;
 }
 h1 span {
-    color: #f56363;
+    color: #E97451;
     font-weight: 400;
 }
 
@@ -434,7 +434,7 @@ textarea::-ms-input-placeholder
 	-moz-transition:.3s ease-in-out;
 }
 .scroll-down a:hover{
-	color:red;
+	color:#E97451;
 }
 
 .heading {
@@ -443,7 +443,8 @@ textarea::-ms-input-placeholder
 .heading h3{
     font-size:45px;
 	text-transform:uppercase;
-	letter-spacing:2px;
+    letter-spacing:2px;
+    font-family:'Lucida Console';
 }
 .heading p{
     line-height:40px;
@@ -462,7 +463,7 @@ textarea::-ms-input-placeholder
 	padding-top:45px;
 	padding-bottom:45px;
 	font-size:20px;
-	font-family:'nexa_lightregular';
+	font-family:'Lucida Console';
 	letter-spacing:2px;
 	line-height:0;
 }
@@ -471,11 +472,11 @@ textarea::-ms-input-placeholder
     background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: red;
+    color: #E97451;
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: red;
+    color: #E97451;
     background-color: transparent;
 }
   .navbar-nav {
@@ -516,11 +517,11 @@ textarea::-ms-input-placeholder
 
 .home-details .home-title h1{
 	font-size:60px;
-	font-family: 'nexa_lightregular';
+	font-family:'Lucida Console';
 	letter-spacing:1px;
 }
 .home-details .home-title h1 span{
-	font-family: 'nexa_boldregular';
+	font-family:'Lucida Console';
 	color:#f1f1f1;
 }
 
@@ -545,7 +546,8 @@ textarea::-ms-input-placeholder
 	overflow: hidden;
 }
 .portfolio .title h3{
-	color:#f1f1f1;
+    color:#f1f1f1;
+    font-family:'Lucida Console';
 }
 .portfolio-wrapper{
 	width:100%;
@@ -566,6 +568,17 @@ textarea::-ms-input-placeholder
 .portfolio-details img{
 	width:100%;
 }
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 /* For Contact Section */
 
@@ -577,15 +590,15 @@ textarea::-ms-input-placeholder
 }
 .contact-details .contact-category h4{
 	font-size:25px;
-	font-family:'nexa_boldregular';
+	font-family:'Lucida Console';
 }
 .contact-details .contact-category .mail h2{
 	font-size:50px;
-	font-family:'nexa_lightregular';
+	font-family:'Lucida Console';
 }
 .contact-details .contact-category .phone h5{
 	font-size:40px;
-	font-family:'nexa_lightregular';
+	font-family:'Lucida Console';
 }
 .contact-details .contact-category .social a {
     font-size: 26px;
@@ -603,7 +616,7 @@ textarea::-ms-input-placeholder
 	-moz-transition:.3s ease-in-out;
 }
 .contact-details .contact-category .social a :hover{
-    color:red;
+    color:#E97451;
 }
 
 /* For Footer Section */
